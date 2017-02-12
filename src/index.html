@@ -1,34 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
-  <link rel="stylesheet" href="main.css">
-  <title>HTML Portfolio</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <title>League of Legends Counter-Items</title>
 </head>
-<body>
-  <section class="header">
-    <h1>Eva Sennerich</h1>
-    <h2>"Mädchen für alles"</h2>
-  </section>
-  <section class="tagline">
-    <h3>About Me</h3>
-    <p>Das wird meine erste eigene Webseite, mal sehen, wie weit ich komme.</p>
-  </section>
-  <section class="skills">
-    <h3>My Skills</h3>
-    <p>Vor allem ganz viel Geduld</p>
-    <ul>
-      <li>HTML</li>
-      <li>CSS 3</li>
-      <li>JavaScript</li>
-    </ul>
-  </section>
-  Welcome to the HTML Portfolio Project
-  <section class="contact">
-    <h3>Contact Me</h3>
-    <p>Am besten über <a href="https://web.whatsapp.com/">Whatsapp</a></p>
-  </section>
 
+<body>
+  <div>
+    <h1>League of Legends Counter-Items</h1>
+    <div class='container items'>
+      <h2>Gegenstände</h2>
+      <ul class='categories list-unstyled'>
+        <li class='category col-xs-4'>
+          <h3>Angriff</h3>
+          <ul class='attack container col-xs-12 list-unstyled'>
+            <li><a href="damage.html">Schaden</a></li>
+            <li>Kritische Treffer</li>
+            <li>Angriffstempo</li>
+            <li>Lebensraub</li>
+          </ul>
+        </li>
+        <li class='category col-xs-4'>
+          <h3>Abwehr</h3>
+          <ul class='defense container col-xs-12 list-unstyled'>
+            <li>Leben</li>
+            <li>Magieresistenz</li>
+            <li>Regeneration</li>
+            <li>Rüstung</li>
+          </ul>
+        </li>
+        <li class='category col-xs-4'>
+          <h3>Magie</h3>
+          <ul class='magic container col-xs-12 list-unstyled'>
+            <li>Fähigkeitsstärke</li>
+            <li>Abklingzeiten</li>
+            <li>Mana</li>
+            <li>Manaregeneration</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class='footer'>
+      <h4>Contact Me</h4>
+      <p>Am besten über <a href="https://web.whatsapp.com/">Whatsapp</a></p>
+    </div>
+  </div>
 </body>
+
 </html>
