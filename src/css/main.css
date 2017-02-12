@@ -30,7 +30,6 @@ h1{
 .damage-items li{
     display: inline;
     font-weight: bold;
-    line-height: 25px;
 }
 .item-list img{
     float: left;
