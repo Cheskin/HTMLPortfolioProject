@@ -22,15 +22,22 @@ h1{
 .category{
     display: inline;
     
+    
+}
+.item-list{
+    margin-bottom: 10px;
 }
 .damage-items li{
     display: inline;
-    margin-top: 10px;
     font-weight: bold;
+    line-height: 25px;
 }
 .item-list img{
     float: left;
     width: 50px;
     height: 50px;
     margin: 2px;
+}
+.item-list a{
+    color: #111111;
 }
